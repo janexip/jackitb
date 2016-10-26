@@ -16,6 +16,10 @@
 		70EE91AE1DC1353C00FA6452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EE91AC1DC1353C00FA6452 /* LaunchScreen.storyboard */; };
 		70EE91B91DC1353C00FA6452 /* JackITBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EE91B81DC1353C00FA6452 /* JackITBTests.swift */; };
 		70EE91C41DC1353C00FA6452 /* JackITBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EE91C31DC1353C00FA6452 /* JackITBUITests.swift */; };
+		70EE91D81DC138A300FA6452 /* song-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 70EE91D41DC138A300FA6452 /* song-1.m4a */; };
+		70EE91D91DC138A300FA6452 /* song-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 70EE91D51DC138A300FA6452 /* song-2.m4a */; };
+		70EE91DA1DC138A300FA6452 /* song-3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 70EE91D61DC138A300FA6452 /* song-3.m4a */; };
+		70EE91DB1DC138A300FA6452 /* song-4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 70EE91D71DC138A300FA6452 /* song-4.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		70EE91BF1DC1353C00FA6452 /* JackITBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackITBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EE91C31DC1353C00FA6452 /* JackITBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackITBUITests.swift; sourceTree = "<group>"; };
 		70EE91C51DC1353C00FA6452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EE91D41DC138A300FA6452 /* song-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "song-1.m4a"; sourceTree = "<group>"; };
+		70EE91D51DC138A300FA6452 /* song-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "song-2.m4a"; sourceTree = "<group>"; };
+		70EE91D61DC138A300FA6452 /* song-3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "song-3.m4a"; sourceTree = "<group>"; };
+		70EE91D71DC138A300FA6452 /* song-4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "song-4.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		70EE919E1DC1353C00FA6452 /* JackITB */ = {
 			isa = PBXGroup;
 			children = (
+				70EE91D31DC138A300FA6452 /* music */,
 				70EE919F1DC1353C00FA6452 /* AppDelegate.swift */,
 				70EE91A11DC1353C00FA6452 /* GameScene.sks */,
 				70EE91A31DC1353C00FA6452 /* GameScene.swift */,
@@ -129,6 +138,17 @@
 				70EE91C51DC1353C00FA6452 /* Info.plist */,
 			);
 			path = JackITBUITests;
+			sourceTree = "<group>";
+		};
+		70EE91D31DC138A300FA6452 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				70EE91D41DC138A300FA6452 /* song-1.m4a */,
+				70EE91D51DC138A300FA6452 /* song-2.m4a */,
+				70EE91D61DC138A300FA6452 /* song-3.m4a */,
+				70EE91D71DC138A300FA6452 /* song-4.m4a */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EE91D91DC138A300FA6452 /* song-2.m4a in Resources */,
+				70EE91DA1DC138A300FA6452 /* song-3.m4a in Resources */,
+				70EE91DB1DC138A300FA6452 /* song-4.m4a in Resources */,
+				70EE91D81DC138A300FA6452 /* song-1.m4a in Resources */,
 				70EE91A21DC1353C00FA6452 /* GameScene.sks in Resources */,
 				70EE91AE1DC1353C00FA6452 /* LaunchScreen.storyboard in Resources */,
 				70EE91AB1DC1353C00FA6452 /* Assets.xcassets in Resources */,
@@ -411,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.biscuits.JackITB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -422,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.biscuits.JackITB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
